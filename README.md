@@ -154,7 +154,4 @@ src/utils文件夹下的文件作用如下：
 - **weight_schedule.py**：动态权重调整
 - **loss_utils.py**：损失函数定义。
 
-### **部分结果**
-<img src = "assets/fig3.png">
-
 
