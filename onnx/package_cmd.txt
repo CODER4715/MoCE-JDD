@@ -1,0 +1,1 @@
+pyinstaller --clean --upx-dir="D:/Program Files/upx-5.0.0-win64" -F --windowed MoCE-JDD.py -i "asset/logo.ico"

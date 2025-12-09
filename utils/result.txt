@@ -1,0 +1,10 @@
+Video Bamboo_3840x2160_25fps_10bit_420: sRGB PSNR: 32.5210
+Video BlackBird_3840x2160_25fps_10bit_420: sRGB PSNR: 42.1438
+Video BoyDressing1_3840x2160_50fps_10bit_420: sRGB PSNR: 33.6527
+Video BoyDressing2_3840x2160_50fps_10bit_420: sRGB PSNR: 32.4567
+Video BoyMakingUp1_3840x2160_50fps_10bit_420: sRGB PSNR: 39.6342
+Video BoyMakingUp2_3840x2160_50fps_10bit_420: sRGB PSNR: 42.4678
+Video BoyWithCostume_3840x2160_50fps_10bit_420: sRGB PSNR: 37.5622
+Video BuildingTouristAttraction1_3840x2160_25fps_10bit_420: sRGB PSNR: 37.8390
+Video BuildingTouristAttraction2_3840x2160_25fps_10bit_420: sRGB PSNR: 40.1801
+Video BuildingTouristAttraction3_3840x2160_25fps_10bit_420: sRGB PSNR: 37.6422

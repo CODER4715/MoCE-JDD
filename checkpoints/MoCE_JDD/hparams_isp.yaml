@@ -1,0 +1,75 @@
+accum_grad: 1
+aux_l2_loss: false
+aux_l2_weight: 0.1
+balance_loss_weight: 0.01
+batch_size: 12
+checkpoint_id: MoCE_JDD
+ckpt_dir: checkpoints
+complexity_scale: max
+cosine_loss: true
+cosine_weight: 20.0
+depth_type: constant
+dim: 8
+epochs: 30
+exp_name: exp005_srgb_raw2srgb_color
+fft_loss: true
+fft_loss_fn: L1
+fft_loss_weight: 0.05
+fine_tune_from: null
+gt_type: srgb
+heads:
+- 2
+- 2
+- 4
+- 8
+isp_bwd: false
+latent_dim: 2
+loss_fn: L1
+loss_type: multi_vgg
+lr: 0.0002
+model: MoCE_JDD
+ms_ssim_levels: 5
+ms_ssim_loss: false
+ms_ssim_weight: 0.5
+ms_ssim_window_size: 11
+num_blocks:
+- 2
+- 4
+- 6
+- 8
+num_dec_blocks:
+- 2
+- 3
+- 4
+num_exp_blocks: 4
+num_frames: 5
+num_gpus: 1
+num_refinement_blocks: 4
+num_workers: 4
+output_path: results
+patch_size: 208
+pixel_loss_weight: 1.0
+psnr_loss: false
+psnr_weight: 0.005
+rank_type: spread
+resume_from: exp005_srgb_raw2srgb_color
+save_results: false
+stage_depth:
+- 1
+- 1
+- 1
+topk: 1
+train_dir: H:/datasets/JDD/REDS120/train/train_orig
+trans12bit: false
+use_tiling: false
+val_dir: H:/datasets/JDD/REDS120/val/val_orig
+vgg_layer_weights:
+- 0.1
+- 0.6
+- 0.3
+vgg_layers:
+- 3
+- 8
+- 13
+vgg_loss_weight: 0.8
+with_complexity: true
