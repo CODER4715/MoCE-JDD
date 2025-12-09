@@ -86,7 +86,7 @@ python train.py --gt_type srgb \
 --with_complexity \
 --fft_loss --cosine_loss \
 --data_file_dir datasets \
---val_file_dir datasets/ZTE_Example \
+--val_file_dir datasets/Example \
 --num_gpus 1 --lr 2e-4 --epochs 30 \
 --ckpt_dir src/checkpoints --num_workers 6 
 `````
